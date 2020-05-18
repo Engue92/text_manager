@@ -34,7 +34,7 @@
 
           <h2>1. Get text</h2>
 
-          <form action="text_manager.php" method="post">
+          <form action="index.php" method="post">
             <input type="text" name="URL"  placeholder="Renceigner l'URL" value="<?=$URL?>" />
             <br>
             <button type="submit" class="appliquer">Fetch text</button>
